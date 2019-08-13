@@ -1,0 +1,32 @@
+.parallax { 
+    /* The image used */
+    background-image: url('../../assets/events-img/events-cover.jpg');
+
+    /* Set a specific height */
+    height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0rem;
+  }
+  
+  .header{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .yellow-text{
+    font-size: 4rem;
+    color: #FFCD00;
+  }
+  
+  .yellow-text p{
+      font-size: 3rem;
+  }
+  .card{
+      margin-bottom:2rem;
+  }

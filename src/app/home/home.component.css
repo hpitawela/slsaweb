@@ -1,0 +1,183 @@
+.carousel-caption {
+    color:   #000000;
+    text-shadow: -1px 0 #FFCD00, 0 1px #FFCD00, 1px 0 #FFCD00, 0 -1px #FFCD00;
+}
+#tagline{
+    margin: 2rem 0 4rem 0;
+    text-align: center;
+    text-shadow: -1px 0 #FFCD00, 0 1px #FFCD00, 1px 0 #FFCD00, 0 -1px #FFCD00;
+}
+#carousel-row{
+    background-color: #000000;
+}
+#recent-event{
+    background-color: #000000;
+    margin: 2rem 0 2rem 0;
+    color: #FFCD00;
+    /* padding: 2rem 2rem 2rem 2rem; */
+    
+}
+#recent-event-body, #recent-event-header, #recent-event-footer{
+    margin: 2rem .5rem .5rem .5rem;
+    text-align: left;
+    padding-top: 1rem;
+}
+small{
+    background-color: #504e4e;
+    color: #ffffff !important;
+    padding: .5rem .5rem .5rem .5rem;
+    font-size: 1rem;
+    margin: .5rem 0 1rem 0;
+}
+
+.logo-container{
+    background-color: white; 
+    width: 5rem; 
+    text-align: center; 
+    margin:0 auto;
+}
+.logo{
+    color: #FFCD00;
+    margin-top: -3.75rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-top:1rem; 
+    height: 5rem;
+    border: 1px solid rgba(0,0,0,.125); 
+    text-align:center; 
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%; 
+    border-bottom-left-radius: 50%; 
+    border-bottom-right-radius: 50%;
+}
+.logo:hover{
+    color: #ffde00;
+}
+.card-text{
+    color: rgba(0,0,0,.5);
+}
+.card-title{
+    margin-top: 1rem;
+    color: #000011;
+}
+.card-title:hover{
+    color: #FFCD00;
+    text-decoration-line: underline;
+    text-decoration-color: #ffffff;
+}
+.card-header{
+    background-color: #ffffff;
+}
+.plus{
+    color: #FFCD00;
+    padding:.5rem; 
+    height: 3rem;
+    width:3rem;
+    border: 1px solid rgba(0,0,0,.125); 
+    text-align:center; 
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%; 
+    border-bottom-left-radius: 50%; 
+    border-bottom-right-radius: 50%;
+}
+.btn-link{
+    color: rgba(0,0,0,.8);
+    text-decoration-line: underline;
+    text-decoration-color: #ffffff;
+}
+.card-header button{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.card-header button:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #ffffff;
+}
+.image-box {
+    position: relative;
+  }
+  
+  /*
+  The background and overlay need to be absolutely positioned
+  */
+  .image-box__background2,
+  .image-box__overlay2 {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* 
+  The background image div sizes and positions the background itself.
+  It's also at the bottom-most position in our "div stack" (z-index 1)
+  
+  We set the image url via a CSS custom property, that's set via the style attribute in our HTML
+  */
+  .image-box__background2 {
+    background: url('../../assets/home-img/5.png');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+    /* background-position-y: -32rem; */
+  }
+  
+  /* 
+  The overlay div is just a colored element with some opacity.
+  It's above the background image in our stack, so it appears to 
+  darken the image 
+  */
+  .image-box__overlay2 {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* 
+  The content div is at the top of our stack. 
+  We'd probably add some padding or flexbox properties here as well, 
+  to place the content appropriately
+  */
+  .image-box__content2 {
+    position: relative;
+    top: 0rem;
+    z-index: 3;
+    width: 100%;
+    /* Finally, style and place the content */
+    color: white;
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #dark-belt-text{
+      width: 100%;
+      text-align: center;
+      margin-top: 6rem;  
+  }
+  .yellow-line{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    line-height: 30px;  
+    text-decoration-color: #FFCD00;
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+  }
+  .white-text{
+    font-size: 1.5rem;
+  }
+  .yellow-text{
+    font-size: 4rem;
+    color: #FFCD00;
+  }
+  #upcoming-event{
+      position: relative;
+      margin-top: 8rem; 
+  }
+  #upcoming-event .yellow-text p{
+      font-size: 3rem;
+  }
+  

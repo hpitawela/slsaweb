@@ -1,0 +1,43 @@
+<div class="row" id="social-media-bar">
+    <div class="container">
+        Sri Lankan Students' Association at The University of Iowa
+    </div>
+</div>
+<div class="row" id="nav-row">
+        <div class="container">
+<nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+    
+    <a class="navbar-brand" href="#">SLSA UIowa</a>
+    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" [ngClass]="{active: menuSelected === 'home'}">
+                <a class="nav-link" href="#" (click)="onSelected('home')">Home</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: menuSelected === 'about-us'}">
+                <a class="nav-link" href="#" (click)="onSelected('about-us')">About Us</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: menuSelected === 'alumni'}">
+                    <a class="nav-link" href="#" (click)="onSelected('alumni')">Alumni</a>
+                </li>
+            <li class="nav-item" [ngClass]="{active: menuSelected === 'events'}">
+                <a class="nav-link" href="#" (click)="onSelected('events')">Events</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: menuSelected === 'news'}">
+                <a class="nav-link" href="#" (click)="onSelected('news')">News</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: menuSelected === 'contact-us'}">
+                <a class="nav-link" href="#" (click)="onSelected('contact-us')">Contact us</a>
+            </li>
+        </ul>
+    </div>
+    <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+    </form>
+
+</nav>
+</div>
+</div>

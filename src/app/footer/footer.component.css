@@ -1,0 +1,37 @@
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    margin-top:4rem;
+    padding-top:2rem;
+    padding-right:20%;
+    padding-left:20%;
+}
+ul{
+    list-style: none;
+    text-align: left;
+    
+}
+li{
+    padding-left:0rem;
+    color: #bbbbbb;
+    padding-bottom: .25rem;
+    padding-top: .25rem; 
+}
+li:hover{
+    color: #FFCD00;
+    text-decoration-color: rgba(0, 0, 0, 0.8);
+}
+a:hover{
+    text-decoration-color: rgba(0, 0, 0, 0);
+}
+p{
+    color: #bbbbbb;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #bbbbbb;
+    margin: 1em 0;
+    padding: 0;
+}

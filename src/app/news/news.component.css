@@ -1,10 +1,6 @@
-div{
-    font-family: 'Lato', sans-serif;
-}
-
 .parallax { 
     /* The image used */
-    background-image: url('../assets/alumni-img/alumni-cover.jpg');
+    background-image: url('../../assets/alumni-img/alumni-cover.jpg');
 
     /* Set a specific height */
     height: 300px; 
@@ -19,7 +15,6 @@ div{
   }
   .image-box {
     position: relative;
-    background-color: #000000;
   }
   
   /*
@@ -71,12 +66,3 @@ div{
     align-items: center;
     justify-content: center;
   }
-
-  .btn-primary{
-    background-color:#FFCD00; 
-    color: #000000;
-    border: 1px solid #FFCD00; 
-}
-.btn-primary:hover{
-    background-color: #504e4e;
-}
