@@ -10,11 +10,11 @@ import { library } from '@fortawesome/fontawesome-svg-core';
   styleUrls: ['./home.component.css','../app.component.css']
 })
 export class HomeComponent implements OnInit {
-  private IMG1 = "assets/home-img/1.jpg";
-  private IMG2 = "assets/home-img/2.jpg";
-  private IMG3 = "assets/home-img/3.jpg";
-  private IMG4 = "assets/home-img/4.jpg";
-  private IMG6 = "assets/home-img/6.jpg";
+  IMG1 = "assets/home-img/1.jpg";
+  IMG2 = "assets/home-img/2.jpg";
+  IMG3 = "assets/home-img/3.jpg";
+  IMG4 = "assets/home-img/4.jpg";
+  IMG6 = "assets/home-img/6.jpg";
   faCoffee = faCoffee;
   constructor() { 
     library.add(fas);
