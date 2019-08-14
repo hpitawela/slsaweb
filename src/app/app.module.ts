@@ -13,6 +13,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './footer/footer.component';
 import { AlumniComponent } from './alumni/alumni.component';
+import { DataTablesModule } from 'angular-datatables';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AlumniComponent } from './alumni/alumni.component';
     BrowserModule,
     FormsModule,
     AngularFontAwesomeModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    DataTablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
