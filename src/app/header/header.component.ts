@@ -1,4 +1,6 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +14,9 @@ export class HeaderComponent implements OnInit {
         this.featureSelected.emit(feature);
         this.menuSelected = feature;
     }
-  constructor() { }
+  constructor() { 
+    library.add(fab);
+  }
 
   ngOnInit() {
   }

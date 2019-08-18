@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-
+  @Output() featureSelected = new EventEmitter<string>();
+  menuSelected : string = 'home';
+    onSelected(feature: string){
+        this.featureSelected.emit(feature);
+        this.menuSelected = feature;
+    }
   constructor() { }
 
   ngOnInit() {
   }
-
+  
 }

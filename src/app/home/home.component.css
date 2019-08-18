@@ -12,7 +12,8 @@
 }
 #recent-event{
     background-color: #000000;
-    margin: 2rem 0 2rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     color: #FFCD00;
     /* padding: 2rem 2rem 2rem 2rem; */
     
@@ -183,3 +184,17 @@ small{
   #collapse-belt{
       margin-bottom: 2rem;
   }
+  .box-para{
+      margin-left: 5rem;
+
+  }
+  .box-para a{
+      color: #FFCD00;
+}
+.box-para a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FFCD00;
+}
+#collapse-belt{
+    margin-top:2rem;
+}

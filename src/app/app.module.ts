@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AlumniComponent } from './alumni/alumni.component';
 import { DataTablesModule } from 'angular-datatables';
 
+
 @NgModule({
   declarations: [
     AppComponent,

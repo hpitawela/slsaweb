@@ -66,3 +66,7 @@
     align-items: center;
     justify-content: center;
   }
+  .row .container{
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }

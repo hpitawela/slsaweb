@@ -2,3 +2,13 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+  #alumni-table tr:nth-child(even){
+    background-color: #FFCD00;
+    }
+    #alumni-table tr:nth-child(even):hover{
+        background-color: #FFCD99;
+        }
+    th{
+        background-color: #000000;
+        color: #FFCD00; 
+    }

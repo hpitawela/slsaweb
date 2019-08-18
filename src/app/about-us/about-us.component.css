@@ -1,0 +1,37 @@
+.header{
+    position: relative;
+    margin: 2rem;
+    text-align: center;
+  }
+  p{
+    font-size: 1.1rem;
+    text-align: center;
+}
+#yellow-box{
+    background-color: #FFCD00;
+    color: #ffffff;
+}
+#white-box{
+    border: 2px #ffffff solid;
+    margin: 2rem;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 0.5rem;
+    font-size: 1.1rem;
+}
+.row .container .row{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+.card{
+    position: relative;
+    margin: auto;
+    background-color: #FFCD00;
+}
+h2{
+    font-weight: 600;
+}

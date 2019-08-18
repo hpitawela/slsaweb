@@ -5,5 +5,5 @@
 <app-alumni *ngIf="loadedFeature === 'alumni'"></app-alumni>
 <app-contact-us *ngIf="loadedFeature === 'contact-us'"></app-contact-us>
 <app-news *ngIf="loadedFeature === 'news'"></app-news>
-<app-footer></app-footer>
+<app-footer (featureSelected)="onNavigate($event)"></app-footer>
 
