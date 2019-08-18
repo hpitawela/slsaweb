@@ -30,6 +30,9 @@
   .card{
       margin-bottom:2rem;
   }
-  #yellow-row{
+  #yellow-box{
       background-color: #FFCD00;
+  }
+  #white-box{
+    background-color: #FFffff;
   }

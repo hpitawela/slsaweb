@@ -13,23 +13,23 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item" [ngClass]="{active: menuSelected === 'home'}">
-                <a class="nav-link" href="#" (click)="onSelected('home')">Home</a>
+            <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true}">
+                <a class="nav-link" routerLink="/">Home</a>
             </li>
-            <li class="nav-item" [ngClass]="{active: menuSelected === 'about-us'}">
-                <a class="nav-link" href="#" (click)="onSelected('about-us')">About Us</a>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/about-us">About Us</a>
             </li>
-            <li class="nav-item" [ngClass]="{active: menuSelected === 'alumni'}">
-                    <a class="nav-link" href="#" (click)="onSelected('alumni')">Alumni</a>
+            <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" routerLink="/alumni">Alumni</a>
                 </li>
-            <li class="nav-item" [ngClass]="{active: menuSelected === 'events'}">
-                <a class="nav-link" href="#" (click)="onSelected('events')">Events</a>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/events">Events</a>
             </li>
-            <li class="nav-item" [ngClass]="{active: menuSelected === 'news'}">
-                <a class="nav-link" href="#" (click)="onSelected('news')">News</a>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/news">News</a>
             </li>
-            <li class="nav-item" [ngClass]="{active: menuSelected === 'contact-us'}">
-                <a class="nav-link" href="#" (click)="onSelected('contact-us')">Contact us</a>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/contact-us">Contact us</a>
             </li>
         </ul>
     </div>

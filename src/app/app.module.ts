@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms'
+import { NgModule} from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -15,7 +16,17 @@ import { FooterComponent } from './footer/footer.component';
 import { AlumniComponent } from './alumni/alumni.component';
 import { DataTablesModule } from 'angular-datatables';
 
-
+const appRoutes : Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'about-us', component: AboutUsComponent },
+  { path: 'alumni', component: AlumniComponent },
+  { path: 'events', component: EventsComponent },
+  { path: 'news', component: NewsComponent },
+  { path: 'contact-us', component: ContactUsComponent },
+  { path: 'about-us#welfare', component: AboutUsComponent},
+  { path: 'events#yellow-box', component: EventsComponent},
+  { path: 'events#white-box', component: EventsComponent}
+]
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +44,8 @@ import { DataTablesModule } from 'angular-datatables';
     FormsModule,
     AngularFontAwesomeModule,
     FontAwesomeModule,
-    DataTablesModule
+    DataTablesModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
