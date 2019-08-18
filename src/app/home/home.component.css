@@ -177,6 +177,7 @@ small{
   #upcoming-event{
       position: relative;
       margin-top: 8rem; 
+      margin-bottom: 2rem;
   }
   #upcoming-event .yellow-text p{
       font-size: 3rem;
