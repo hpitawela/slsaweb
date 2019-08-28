@@ -1,6 +1,10 @@
-# SlsaWeb
+# SlsaWeb 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
+
+## Production server
+
+This project is temporarily hosted in heroku. [Heroku Link](https://slsa-web.herokuapp.com/)
 
 ## Development server
 
