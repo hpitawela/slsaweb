@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Production server
 
-This project is temporarily hosted in heroku. [Heroku Link](https://slsa-web.herokuapp.com/)
+This project is temporarily hosted in heroku. [Heroku Link](https://slsa-uiowa.herokuapp.com/)
 
 ## Development server
 
